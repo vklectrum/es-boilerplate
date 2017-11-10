@@ -1,4 +1,4 @@
-#Strings and Regular Expressions.
+# Strings and Regular Expressions.
 
 1. [Улучшена-поддержка-юникода](https://learn.javascript.ru/es-string#улучшена-поддержка-юникода)
 2. [Метод оределения номера юникод символа codePointAt](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt)
