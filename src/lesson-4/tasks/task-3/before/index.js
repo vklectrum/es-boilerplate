@@ -15,14 +15,15 @@ import { getInfo } from '../after';
 // arr2 and arr3 are optional.
 /*
 {
-   arr1: [1,2,3],
-   arr2: [2,3,4],
-   arr3: [3,5,7],
+   arr0: [1,2,3],
+   arr1: [2,3,4],
+   arr2: [3,5,7],
    created: 2017-11-15
 }
 */
 
 const data = generateData();
+
 const getMetaInfo = () => {
     const arr = [];
 

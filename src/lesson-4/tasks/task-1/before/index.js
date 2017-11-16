@@ -1,3 +1,5 @@
+'use strict';
+
 import {
     addEntity as add,
     getEntities,
@@ -48,6 +50,7 @@ const count = getCount();
 
 // Get entity by entity.id
 const entityById = getEntityById(0);
+console.log(entityById);
 
 // Get first entity
 const first = getFirstEntity();
