@@ -1,3 +1,5 @@
+'use strict';
+
 import {
     DataManager
 } from '../after/dataManager';
