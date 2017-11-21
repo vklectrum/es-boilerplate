@@ -1,3 +1,5 @@
+'use strict';
+
 import {
     addEntity as add,
     getEntities,
@@ -38,22 +40,50 @@ const man = new Entity({
     ]
 });
 
+const man2 = new Entity({
+    id: 1,
+    firstName: 'Joe',
+    lastName: 'Dikson',
+    age: 31,
+    sex: 'male',
+    social: [
+        {
+            id: 1,
+            title: 'facebook',
+            views: 11
+        },
+        {
+            id: 2,
+            title: 'youtube',
+            views: 33
+        },
+        {
+            id: 3,
+            title: 'twitter',
+            views: 6
+        }
+    ]
+});
+
 // Get data for man
 const firstEntity = man.getEntity();
+const secondEntity = man2.getEntity();
 
 // Add man to collection
 add(firstEntity);
+add(secondEntity);
 
-const totalViews1 = getEntityTotalviews();
+const totalViews1 = getEntityTotalviews(firstEntity.id);
 console.log(totalViews1); // 46
 
-const totalViews2 = getEntityTotalviews([1, 3]);
+const totalViews2 = getEntityTotalviews(firstEntity.id,[1, 3]);
 console.log(totalViews2); // 23
 
-const totalViews3 = getEntityTotalviews(['facebook', 'twitter']);
+const totalViews3 = getEntityTotalviews(firstEntity.id,['facebook', 'twitter']);
 console.log(totalViews3); // 23
 
-const totalViews3 = getEntityTotalviews(null, total => total * 3);
-console.log(totalViews3); // 138
+const totalViews4 = getEntityTotalviews(firstEntity.id, null, total => total * 3);
+console.log(totalViews4); // 138
 
 const entitiesSorted = getEntitiesSortedByPopularity();
+console.log(entitiesSorted);
