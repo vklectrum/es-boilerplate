@@ -1,6 +1,5 @@
 /node_modules/
-/src/lesson-*/.DS_Store
-/src/lesson-*/tasks/task-*/after/
+
 yarn.lock
 .idea/
 package-lock.json
