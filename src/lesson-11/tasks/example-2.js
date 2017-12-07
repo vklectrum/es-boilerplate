@@ -2,9 +2,6 @@ import fetch from 'isomorphic-fetch';
 
 const resultList = [];
 const promises = [];
-const pathList = ['https://newsapi.org/v2/sources?apiKey=f51575f85f6f45a39506856c4eb46563&country=cn',
-    'https://newsapi.org/v2/sources?apiKey=f51575f85f6f45a39506856c4eb46563&country=ca',
-    'https://newsapi.org/v2/sources?apiKey=f51575f85f6f45a39506856c4eb46563&country=au'];
 
 function fillResultList(sources) {
     for (const { name, description, country } of sources) {
