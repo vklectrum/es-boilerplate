@@ -27,6 +27,9 @@ async function getData(path) {
         })
         .then(function ({ sources }) {
             fillResultList(sources);
+        })
+        .catch((message) =>{
+            console.log(message);
         });
 }
 

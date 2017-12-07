@@ -27,6 +27,8 @@ for (const path of pathList) {
         })
         .then(function ({ sources }) {
             fillResultList(sources);
+        }).catch((message) => {
+            console.log(message);
         });
     promises.push(prom);
 }
