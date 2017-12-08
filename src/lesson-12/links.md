@@ -1,0 +1,10 @@
+# Metaprogramming in ES6
+1. [Reflect MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
+2. [Proxy MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+3. [Learn javascript](https://learn.javascript.ru/proxy)
+4. [Про Reflect API доступным языком](https://habrahabr.ru/company/tuturu/blog/334546/)
+5. [Metaprogramming with proxies](http://exploringjs.com/es6/ch_proxies.html)
+6. [ES6 In Depth: Proxies](https://hacks.mozilla.org/2015/07/es6-in-depth-proxies-and-reflect/)
+7. [Meta programming with ECMAScript 6 proxies](http://2ality.com/2014/12/es6-proxies.html)
+8. [Metaprogramming in ES6: Part 2 - Reflect](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-2-reflect/)
+9. [Metaprogramming in ES6: Part 3 - Proxies](https://www.keithcirkel.co.uk/metaprogramming-in-es6-part-3-proxies/)
